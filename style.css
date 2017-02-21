@@ -945,7 +945,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 -----------------------------------------------------*/
 
 
-/*.cs-main .left-section {
+.cs-main .left-section {
 		background-color: #F2F2F2;
 		position: absolute;
     left: 0;
@@ -956,7 +956,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 		height: 100%;
 		overflow: hidden;
     z-index: 1;
-}*/
+}
 
 .cs-main .left-section {
 		background-color: #F2F2F2;
@@ -996,8 +996,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .cs-main .left-section {
-	/*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(split-bg.jpg) no-repeat center center;*/
-	background-size: cover;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(logo_character.png) no-repeat center center;
+	/*background-size: cover;*/
+	background-color: #F2F2F2;
 }
 
 
