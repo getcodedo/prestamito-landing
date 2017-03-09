@@ -7,7 +7,7 @@ var uglify = require("gulp-uglify");
 
 gulp.task('connect', ['build'], function() {
     connect.server({
-        root: 'landing',
+        root: 'dist',
         livereload: true,
         port:3000,
         middleware: function(connect) {
