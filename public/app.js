@@ -26,7 +26,7 @@
             $scope.saveSubscriptionRequest = function () {
                 $http.post('https://prestamitoapp.com/api/prestamito/subscriptionRequests', $scope.subscriptionRequest)
                     .then(function (subscriptionRequest) {
-                        toastr.success('Se ha enviado su Solicitud de Suscripción.', 'Correcto', 3000);
+                        toastr.info('Su Solicitud de Suscripción ha sido enviada de manera exitosa.');
                         clearInputs();
                     }, function (responseMessage) {
                         toastr.error(responseMessage.data.message, 'Error', 1000);

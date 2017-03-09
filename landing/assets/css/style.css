@@ -2231,3 +2231,7 @@ div.feature-single p {
 	font-size: 17px !important;
 
 }
+
+.toast-info {
+	background-color: #27476E !important;
+}
