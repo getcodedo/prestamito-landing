@@ -11,7 +11,7 @@ gulp.task('connect', ['build'], function() {
         livereload: true,
         port:3000,
         middleware: function(connect) {
-            return [connect().use('/bower_components', connect.static('bower_components'))];
+            return [connect().use('/landing', connect.static('landing'))];
         }
     });
 });
