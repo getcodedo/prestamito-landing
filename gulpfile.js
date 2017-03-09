@@ -27,7 +27,7 @@ gulp.task('scripts', function(){
 
 gulp.task('html', function(){
     return gulp.src(['./public/**/*.html'])
-        .pipe(gulp.dest('landing'))
+        .pipe(gulp.dest('dist'))
 });
 
 gulp.task('css', function(){
