@@ -1,0 +1,26 @@
+{
+  "name": "prestamito-landing",
+  "description": "This is the Prestamito Landing Page",
+  "main": "server",
+  "authors": [
+    "Kenji Mukai <kensuka21@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "prestamito",
+    "landing"
+  ],
+  "homepage": "https://github.com/getcodedo/prestamito-landing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.3",
+    "angular-toastr": "2.1.1",
+    "angular-animate": "1.6.3"
+  }
+}

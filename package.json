@@ -1,0 +1,28 @@
+{
+  "name": "prestamito-landing",
+  "version": "1.0.0",
+  "description": "This is the Prestamito Landing Page",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcodedo/prestamito-landing.git"
+  },
+  "keywords": [
+    "prestamito",
+    "landing"
+  ],
+  "author": "Kenji Mukai <kensuka21@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getcodedo/prestamito-landing/issues"
+  },
+  "homepage": "https://github.com/getcodedo/prestamito-landing#readme",
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-connect": "5.0.0",
+    "gulp-uglify": "2.1.0"
+  }
+}
