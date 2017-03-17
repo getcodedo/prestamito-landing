@@ -1050,7 +1050,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /* ----- Client Sectiion Styling ----- */
 
 .client-section {
-	background-color: #F3F3F3;
+	background-color: #FFFFFF;
 	padding: 5px 0 0 0;
 }
 
@@ -1836,7 +1836,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .footer {
   /*background-color: #F3F3F3;*/
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/ 
+  background-color: #F9F9F9;
   width: 100%;
   height: 100%;
 	overflow: hidden;
