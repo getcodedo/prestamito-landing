@@ -53,8 +53,8 @@
                         <li><a class="page-scroll" href="#app-features">Características</a></li>
                         <li><a class="page-scroll" href="#pricing">Precios</a></li>
                         <li><a class="page-scroll" href="#cta-sub">Contacto</a></li>
-                        <li><a class="page-scroll btn btn-primary"
-                               style="background: #27476E; color: #ffffff; font-family: 'Roboto', sans-serif; font-size: 16px;font-weight: 400; color: #FFFFFF;"
+                        <li><a class="page-scroll"
+                               style="background: #27476E; color: #ffffff; border-radius: 3px;"
                                href="https://prestamitoapp.com/app/#/">Iniciar</a></li>
                     </ul>
                 </div>
@@ -62,16 +62,15 @@
         </nav><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 
-    <div class="main signup" id="main"><!-- Main Section-->
-        <div id="hero-section" class="hero-section">
+    <div class="main signup" id="main" ><!-- Main Section-->
+        <div id="hero-section" class="hero-section" >
             <div class="container">
                 <div class="row">
                     <!--<div class="col-md-1">
                     </div>-->
-                    <div class="col-md-7">
-
-                        <div class="text-center">
-                            <div class="app-img">
+                    <div class="col-md-12">
+                        <div class="text-center" style="margin-top: -30px;">
+                            <div class="app-img" >
                                 <img class="wow fadeInUp" src="/landing/assets/images/logo-LG.png" alt="App Logo"
                                      style="visibility: visible; animation-name: fadeInUp; width: 50%;">
                             </div>
@@ -83,13 +82,28 @@
                                 <h4>Prestar nunca había sido tan fácil.
                                     Comienza a llevar tu negocio a otro nivel.
                                 </h4>
+                                <h4 style="margin-top: -1px;">Crea tu cuenta y obtén tu mes gratis</h4>
                                 <!--<strong style="font-weight: bold;">infocodedo@gmail.com.</strong></h4>-->
                             </div>
                             <div class="download-buttons wow fadeInUp"
-                                 style="visibility: visible; animation-name: fadeInUp;">
+                                 style="visibility: visible; animation-name: fadeInUp; margin-top: 10px;">
                                 <a href="https://prestamitoapp.com/app/#/login?demo"
                                    style="background: #27476E; color: #ffffff; font-family: 'Roboto', sans-serif; font-size: 16px;font-weight: 400; color: #FFFFFF;"
                                    class="btn btn-default btn-lg">Ver demo</a>
+                                <a href="https://prestamitoapp.com/app/#/signup"
+                                   style="background: #27476E; color: #ffffff; font-family: 'Roboto', sans-serif; font-size: 16px;font-weight: 400; color: #FFFFFF;"
+                                   class="btn btn-default btn-lg">Crear cuenta</a>
+                            </div>
+                            <hr/>
+                            <div class="app-info wow " style="visibility: visible; animation-name: fadeInUp;">
+                                <h3 style="">¿No eres prestamista o financiera?</h3>
+                                <!--<strong style="font-weight: bold;">infocodedo@gmail.com.</strong></h4>-->
+                            </div>
+
+                            <div class="download-buttons wow fadeInUp" style="margin-top: 10px;">
+                                <a href="https://prestamitoapp.com/app/#/loanRequest"
+                                   style="background: #27476E; color: #ffffff; font-family: 'Roboto', sans-serif; font-size: 16px;font-weight: 400; color: #FFFFFF;"
+                                   class="btn btn-default btn-lg">Solicitar préstamo</a>
                             </div>
                             <!--<h4><strong style="font-weight: bold;">Copyright &copy; 2016-2017 <a href="http://code.do/">Codedo</a>.</strong> All rights reserved.</h4>-->
                         </div>
@@ -128,43 +142,41 @@
                         <!--</div>-->
 
                     </div>
-                    <div class="col-md-1">
-                    </div>
-                    <div class="col-md-4">
-                        <div class="signup-form wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <h1><u>Suscríbete Ahora</u> y obtén 1 mes GRATIS!</h1>
-                            <form name="subscriptionRequestForm" ng-submit="saveSubscriptionRequest()"
-                                  class="registration-form">
-                                <div class="form-group">
-                                    <label class="sr-only" for="form-name">Nombre Completo</label>
-                                    <input type="text" name="form-name" placeholder="Escribe tu nombre..."
-                                           ng-model="subscriptionRequest.fullName"
-                                           maxlength="255"
-                                           class="form-name form-control" id="form-name">
-                                </div>
+                    <!--<div class="col-md-4">-->
+                        <!--<div class="signup-form wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">-->
+                            <!--<h1><u>Suscríbete Ahora</u> y obtén 1 mes GRATIS!</h1>-->
+                            <!--<form name="subscriptionRequestForm" ng-submit="saveSubscriptionRequest()"-->
+                                  <!--class="registration-form">-->
+                                <!--<div class="form-group">-->
+                                    <!--<label class="sr-only" for="form-name">Nombre Completo</label>-->
+                                    <!--<input type="text" name="form-name" placeholder="Escribe tu nombre..."-->
+                                           <!--ng-model="subscriptionRequest.fullName"-->
+                                           <!--maxlength="255"-->
+                                           <!--class="form-name form-control" id="form-name">-->
+                                <!--</div>-->
 
-                                <div class="form-group">
-                                    <label class="sr-only" for="form-phone">Teléfono</label>
-                                    <input type="text" name="form-phone" placeholder="Número de contacto..."
-                                           ng-model="subscriptionRequest.phoneNumber"
-                                           maxlength="255"
-                                           class="form-phone form-control" id="form-phone">
-                                </div>
+                                <!--<div class="form-group">-->
+                                    <!--<label class="sr-only" for="form-phone">Teléfono</label>-->
+                                    <!--<input type="text" name="form-phone" placeholder="Número de contacto..."-->
+                                           <!--ng-model="subscriptionRequest.phoneNumber"-->
+                                           <!--maxlength="255"-->
+                                           <!--class="form-phone form-control" id="form-phone">-->
+                                <!--</div>-->
 
-                                <div class="form-group">
-                                    <label class="sr-only" for="form-email">Correo</label>
-                                    <input type="text" name="form-email" placeholder="Dirección de correo..."
-                                           ng-model="subscriptionRequest.email"
-                                           maxlength="255"
-                                           class="form-email form-control" id="form-email">
-                                </div>
-                                <button type="submit" class="btn">Suscribirme!</button>
-                                <p>
-                                    *Tus datos estarán seguros con nosotros.
-                                </p>
-                            </form>
-                        </div>
-                    </div>
+                                <!--<div class="form-group">-->
+                                    <!--<label class="sr-only" for="form-email">Correo</label>-->
+                                    <!--<input type="text" name="form-email" placeholder="Dirección de correo..."-->
+                                           <!--ng-model="subscriptionRequest.email"-->
+                                           <!--maxlength="255"-->
+                                           <!--class="form-email form-control" id="form-email">-->
+                                <!--</div>-->
+                                <!--<button type="submit" class="btn">Suscribirme!</button>-->
+                                <!--<p>-->
+                                    <!--*Tus datos estarán seguros con nosotros.-->
+                                <!--</p>-->
+                            <!--</form>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
